@@ -1,7 +1,7 @@
 {
-    "name": "iboxs/wechat",
-    "description": "微信开发包",
-    "type": "1",
+    "name": "iboxs/elasticsearch",
+    "description": "ElasticSearch 类似ORM访问开发包",
+    "type": "library",
     "license": "MIT",
     "version": "1.0.0",
     "authors": [
@@ -11,7 +11,7 @@
       }
     ],
     "require": {
-      "php": ">=7.0",
+      "php": ">=7.2",
       "ext-curl": "*",
       "ext-mbstring": "*",
       "ext-json": "*",
@@ -19,7 +19,10 @@
     },
     "autoload": {
       "psr-4": {
-        "iboxs\\wechat\\": "src/"
+        "iboxs\\elasticsearch\\": "src/",
+        "illuminate/support": "^5.3|^6.0|^7.0|^8.0",
+        "elasticsearch/elasticsearch": "~7.0",
+        "ramsey/uuid": "^4.1"
       }
     }
 }
