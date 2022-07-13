@@ -15,14 +15,14 @@
       "ext-curl": "*",
       "ext-mbstring": "*",
       "ext-json": "*",
-      "iboxs/redis": "1.0.*"
+      "iboxs/redis": "1.0.*",
+      "illuminate/support": "^5.3|^6.0|^7.0|^8.0",
+      "elasticsearch/elasticsearch": "~7.0",
+      "ramsey/uuid": "^4.1"
     },
     "autoload": {
       "psr-4": {
-        "iboxs\\elasticsearch\\": "src/",
-        "illuminate/support": "^5.3|^6.0|^7.0|^8.0",
-        "elasticsearch/elasticsearch": "~7.0",
-        "ramsey/uuid": "^4.1"
+        "iboxs\\elasticsearch\\": "src/"
       }
     }
 }
